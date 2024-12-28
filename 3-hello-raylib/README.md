@@ -35,3 +35,14 @@ cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..
 # Run clangd with verbose logging
 clangd --log=verbose 
 ```
+
+“If you’re using something like a Raspberry Pi, then hello_raylib may spit out the following error message instead of opening a window:”
+
+
+WARNING: GLFW: Error: 65543 Description: GLX: Failed to create context: GLXBadFBConfig
+WARNING: GLFW: Failed to initialize Window
+FATAL: Failed to initialize Graphic Device”
+
+
+set(GRAPHICS GRAPHICS_API_OPENGL_21)
+
