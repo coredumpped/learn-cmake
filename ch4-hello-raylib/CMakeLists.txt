@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.24)
-project(3-hello-raylib)
+project(hello_raylib)
 
 # Workaround for CLang and RayLib's compound literals See:
 # https://github.com/raysan5/raylib/issues/1343
