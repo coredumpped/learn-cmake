@@ -1,3 +1,3 @@
 #include <cstdio>
 
-void PrintGoodBye() { printf("GoodBye\n"); }
+void PrintGoodBye() { printf("Good Bye!!!\n"); }
